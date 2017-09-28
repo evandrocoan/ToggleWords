@@ -1,4 +1,0 @@
-[
-	{ "keys": ["alt+super+x"], "command": "toggle_word" },
-	{ "keys": ["alt+cmd+x"], "command": "toggle_word" }
-]

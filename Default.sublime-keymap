@@ -1,0 +1,4 @@
+[
+    // Package Toggle Words command using the package Case Conversion key style alt+w
+	{ "keys": ["alt+w", "alt+t"], "command": "toggle_word"},
+]
