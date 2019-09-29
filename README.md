@@ -30,17 +30,26 @@ Set cursor on word or select word and press:
 * Linux - <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>X</kbd>
 
 
-# Installation
+## Installation
 
-0. Install Package Control
-1. Open ST command panel (<kbd>Shift</kbd>+<kbd>Control</kbd>+<kbd>P</kbd>), choose `Package Control — Install Package`, type `Toggle`, find Toggle Words and press <kbd>Enter</kbd>
-2. Have fun!
+### By Package Control
 
-or
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `ToggleWords` and press <kbd>Enter</kbd>
 
-1. Open you Sublime Text 3 Packages directory
-2. Run `git clone git://github.com/gordio/ToggleWords`
-3. Have fun!
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 # Configure
